@@ -1,9 +1,9 @@
 # Ionic Framework Demo App
 
-<img width="900" height="1000" src="media/ionic-3.png" border="0" />
+<img width="900" height="600" src="media/ionic-3.png" border="0" />
 This is a demo app built with the Ionic Framework that you can preview in the browser or clone and run locally on an emulator or device.
 
-## Run locally
+## Run Locally
 
 This assumes you already have an emulator setup for iOS or Android. Substitute `ios` for `android` below to use Android.
 
