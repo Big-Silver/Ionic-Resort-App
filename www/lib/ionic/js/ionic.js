@@ -34,11 +34,6 @@ window.ionic.version = '1.0.0-beta.12';
     document.removeEventListener('DOMContentLoaded', domReady);
   }
   document.addEventListener('DOMContentLoaded', domReady);
-
-  // From the man himself, Mr. Paul Irish.
-  // The requestAnimationFrame polyfill
-  // Put it on window just to preserve its context
-  // without having to use .call
   window._rAF = (function(){
     return  window.requestAnimationFrame       ||
             window.webkitRequestAnimationFrame ||

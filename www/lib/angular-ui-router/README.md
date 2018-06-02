@@ -121,11 +121,7 @@ The majority of UI-Router's power is in its ability to nest states & views.
 >
 ```javascript
 myApp.config(function($stateProvider, $urlRouterProvider) {
-  //
-  // For any unmatched url, redirect to /state1
   $urlRouterProvider.otherwise("/state1");
-  //
-  // Now set up the states
   $stateProvider
     .state('state1', {
       url: "/state1",
